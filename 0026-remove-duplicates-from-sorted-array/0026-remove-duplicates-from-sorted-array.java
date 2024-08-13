@@ -10,16 +10,11 @@ class Solution {
                 nums[j] = nums[i];  
             }
         }
-        for (int i = 0; i <= j; i++) {
-            System.out.print(nums[i] + " ");
-        }
-        System.out.println();
-
         return j + 1;
     }
 
     public static void main(String[] args) {
         int[] nums = {1, 1, 2, 2, 3, 3, 3, 4, 5, 5};
-        System.out.println("Number of unique elements: " + removeDuplicates(nums));
+        System.out.println( + removeDuplicates(nums));
     }
 }
