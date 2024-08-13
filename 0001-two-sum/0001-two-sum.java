@@ -1,0 +1,30 @@
+class Solution {
+    public static int[] twoSum(int[] nums, int target) {
+        int [] array=new int[2];
+        for(int i=0;i<nums.length-1;i++){
+            for(int j=i+1;j<nums.length;j++){
+                if(nums[i]+nums[j]==target){
+                    array=new int[]{i,j};
+                }
+            }
+        }
+        return array;
+    }
+    public static void main(String[] args){
+        int nums[]={2,7,11,15};
+        int target=9;
+        int[] result = twoSum(nums, target);
+
+        // Check if the result is not null and print the array
+        if (result != null) {
+            System.out.println("Indices found:");
+            for (int index : result) {
+                System.out.print(index+" ");
+            }
+        } else {
+            System.out.println("No two sum solution found.");
+        }
+    }
+
+
+}
