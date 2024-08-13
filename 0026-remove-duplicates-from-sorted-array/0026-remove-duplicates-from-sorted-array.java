@@ -14,7 +14,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 1, 2, 2, 3, 3, 3, 4, 5, 5};
-        System.out.println( + removeDuplicates(nums));
+        int[] nums = {1, 1, 2};
+        System.out.println(removeDuplicates(nums));
     }
 }
