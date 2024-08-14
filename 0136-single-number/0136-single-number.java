@@ -14,6 +14,6 @@ class Solution {
 
     public static void main(String[] args) {
         int [] nums={1};
-        System.out.println(singleNumber(nums));
+        singleNumber(nums);
     }
 }
