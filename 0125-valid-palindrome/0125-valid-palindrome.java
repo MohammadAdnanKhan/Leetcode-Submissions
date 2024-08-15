@@ -11,9 +11,4 @@ public class Solution {
         String backward=sb.reverse().toString();
         return forward.equals(backward);
     }
-
-    public static void main(String[] args) {
-        String s = "race a car";
-        System.out.println(isPalindrome(s));
-    }
 }
