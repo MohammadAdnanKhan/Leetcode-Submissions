@@ -18,4 +18,12 @@ class Solution {
             j--;
         }
     }
+
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 3, 4, 5, 6};
+        rotate(nums, 11);
+        for (int num : nums) {
+            System.out.print(num + " ");
+        }
+    }
 }
