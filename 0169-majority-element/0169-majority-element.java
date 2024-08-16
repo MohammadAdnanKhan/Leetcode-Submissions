@@ -10,7 +10,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int [] nums={3,2,3};
+        int [] nums={1};
         System.out.println(majorityElement(nums));
     }
 }
