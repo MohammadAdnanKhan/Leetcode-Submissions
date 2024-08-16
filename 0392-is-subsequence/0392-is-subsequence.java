@@ -9,4 +9,8 @@ class Solution {
         }
         return i == s.length();
     }
+
+    public static void main(String[] args) {
+        System.out.println(isSubsequence("b", "a"));
+    }
 }
