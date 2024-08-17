@@ -17,7 +17,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int [] nums={1,5,5,6,6,1};
+        int [] nums={1,1,2,2};
         System.out.println(duplicateNumbersXOR(nums));
     }
 }
