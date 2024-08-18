@@ -26,10 +26,7 @@ class Solution {
         return temp2;
 }
     public static void main(String[] args) {
-        ListNode ll = new ListNode(6);
-        ll = new ListNode(5, ll);
-        ll = new ListNode(4, ll);
-        ll = new ListNode(3, ll);
+        ListNode ll = new ListNode(3);
         ll = new ListNode(2, ll);
         ll = new ListNode(1, ll);
         System.out.println(middleNode(ll).val);
