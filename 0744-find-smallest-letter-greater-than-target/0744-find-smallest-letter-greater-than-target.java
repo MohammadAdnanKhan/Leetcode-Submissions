@@ -17,7 +17,6 @@ class Solution {
         }
         return letters[start%letters.length];
     }
-
     public static void main(String[] args) {
         char [] letters={'c','f','j'};
         System.out.println(nextGreatestLetter(letters,'c'));
