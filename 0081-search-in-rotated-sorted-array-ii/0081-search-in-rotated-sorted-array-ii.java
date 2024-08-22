@@ -56,9 +56,9 @@ class Solution {
         }
     }
 
-    public static void main(String[] args) {
-        int [] nums={1,0,1,1,1};
-        int target=0;
-        System.out.println(search(nums,target));
-    }
+    // public static void main(String[] args) {
+    //     int [] nums={1,0,1,1,1};
+    //     int target=0;
+    //     System.out.println(search(nums,target));
+    // }
 }
