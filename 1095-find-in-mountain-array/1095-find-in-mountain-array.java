@@ -16,7 +16,6 @@ class Solution {
             if (mountainArr.get(mid)<mountainArr.get(mid+1)){
                 start=mid+1;
             }
-            // if (mountainArr.get(mid)>mountainArr.get(mid+1))
             else {
                 end=mid;
             }
