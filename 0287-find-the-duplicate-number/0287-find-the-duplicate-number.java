@@ -4,7 +4,7 @@ class Solution {
         nums[start]=nums[end];
         nums[end]=temp;
     }
-    public static void cyclicsort(int [] nums){
+    public static int cyclicsort(int [] nums){
         int i=0;
         while (i<nums.length){
             int correct=nums[i];
@@ -12,17 +12,16 @@ class Solution {
                 swap(nums,i,correct);
             }
             else{
-                i++;
+                return nums[correct];
             }
         }
+        return -1;
     }
     public static int findDuplicate(int[] nums) {
-        cyclicsort(nums);
-        return nums[0];
+        return cyclicsort(nums);
     }
-    public static void main(String[] args) {
-        int [] nums={3,4,1,1,2};
-        System.out.println(findDuplicate(nums));
-
-    }
+    // public static void main(String[] args) {
+    //     int [] nums={3,4,1,1,2};
+    //     System.out.println(findDuplicate(nums));
+    // }
 }
