@@ -27,11 +27,11 @@ class Solution {
         return cyclicsort(nums);
     }
 
-    public static void main(String[] args) {
-        int [] nums={1,2,2,4};
-        int [] output =findErrorNums(nums);
-        for (int i = 0; i < output.length; i++) {
-            System.out.print(output[i]+" ");
-        }
-    }
+    // public static void main(String[] args) {
+    //     int [] nums={1,2,2,4};
+    //     int [] output =findErrorNums(nums);
+    //     for (int i = 0; i < output.length; i++) {
+    //         System.out.print(output[i]+" ");
+    //     }
+    // }
 }
