@@ -26,7 +26,7 @@ class Solution {
         return count;
     }
 
-    public static void main(String[] args) {
-        System.out.println(countPrimes(20)); 
-    }
+    // public static void main(String[] args) {
+    //     System.out.println(countPrimes(20)); 
+    // }
 }
