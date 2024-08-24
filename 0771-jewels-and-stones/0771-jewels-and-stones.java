@@ -10,7 +10,7 @@ class Solution {
         return count;
     }
 
-    public static void main(String[] args) {
-        System.out.println(numJewelsInStones("aA", "aAAbbbb"));
-    }
+    // public static void main(String[] args) {
+    //     System.out.println(numJewelsInStones("aA", "aAAbbbb"));
+    // }
 }
