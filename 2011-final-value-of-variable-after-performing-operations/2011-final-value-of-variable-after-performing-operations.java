@@ -11,7 +11,7 @@ class Solution {
         return x;
     }
 
-    public static void main(String[] args) {
-        System.out.println(finalValueAfterOperations(new String []{"++X","++X","X++"}));
-    }
+    // public static void main(String[] args) {
+    //     System.out.println(finalValueAfterOperations(new String []{"++X","++X","X++"}));
+    // }
 }
