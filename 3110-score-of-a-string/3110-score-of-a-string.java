@@ -9,7 +9,7 @@ class Solution {
         return ans;
     }
 
-    public static void main(String[] args) {
-        System.out.println(scoreOfString("hello"));
-    }
+    // public static void main(String[] args) {
+    //     System.out.println(scoreOfString("hello"));
+    // }
 }
