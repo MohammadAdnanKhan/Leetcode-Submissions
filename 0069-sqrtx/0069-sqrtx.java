@@ -18,7 +18,7 @@ public class Solution{
         }
         return right;
     }
-    public static void main(String[] args) {
-        System.out.println(mySqrt(77284935));
-    }
+    // public static void main(String[] args) {
+    //     System.out.println(mySqrt(77284935));
+    // }
 }
