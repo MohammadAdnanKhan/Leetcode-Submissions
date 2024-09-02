@@ -16,7 +16,7 @@ class Solution {
         return y;
     }
 
-    public static void main(String[] args) {
-        System.out.println(reverse(1463847412));
-    }
+    // public static void main(String[] args) {
+    //     System.out.println(reverse(1463847412));
+    // }
 }
