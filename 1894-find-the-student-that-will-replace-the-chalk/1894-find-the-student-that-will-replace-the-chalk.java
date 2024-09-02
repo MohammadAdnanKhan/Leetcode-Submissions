@@ -17,10 +17,10 @@ class Solution {
         return -1; 
     }
 
-    public static void main(String[] args) {
-        int chalk[] = {5, 1, 5};
-        int k = 22;
-        System.out.println(chalkReplacer(chalk, k)); 
-    }
+    // public static void main(String[] args) {
+    //     int chalk[] = {5, 1, 5};
+    //     int k = 22;
+    //     System.out.println(chalkReplacer(chalk, k)); 
+    // }
 }
 
